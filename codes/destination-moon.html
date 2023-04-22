@@ -5,10 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="main.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <nav>
+    <div class="nav_ctn">
+      <div>
+        <img src="assets/shared/logo.svg" alt="">        
+      </div>
+
+      <div class="secondary_nav">
+        <img id="open" src="assets/shared/icon-hamburger.svg" alt="">
+  
+        <div id="dropdown_ctn" class="dropdown">
+          <div class="close_nav">
+            <img id="close" src="assets/shared/icon-close.svg" alt="">
+          </div>
+          <div class="nav_items">
+            <a href="/codes/index.html"><span>00</span>HOME</a>
+            <a href="/codes/destination-moon.html"><span>01</span>DESTINATION</a>
+            <a href="#"><span>02</span>CREW</a>
+            <a href="#"><span>03</span>TECHNOLOGY</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
 
   00 Home
   01 Destination
@@ -33,5 +58,8 @@
 
   Est. travel time
   3 days
+
+  <script src="data.json"></script>
+  <script src="index.js"></script>
 </body>
 </html>
